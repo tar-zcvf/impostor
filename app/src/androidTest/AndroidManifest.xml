@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Manifest additions for the androidTest source set (merged into the test APK only). -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Host activity used only by the instrumented smoke test. -->
+        <activity
+            android:name="com.maskedparty.game.InstrumentedActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+    </application>
+</manifest>

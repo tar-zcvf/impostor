@@ -1,0 +1,41 @@
+# Built application files
+*.apk
+*.apks
+*.aab
+*.dex
+
+# Gradle files
+.gradle/
+/build/
+**/build/
+
+# Local configuration file (sdk.dir, signing configs, etc.)
+local.properties
+
+# JKS keystore files (NEVER commit your release keys!)
+*.jks
+*.keystore
+*.p12
+
+# IDE files (Android Studio / IntelliJ)
+.idea/
+.iml
+*.iml
+.DS_Store
+.cxx/
+.externalNativeBuild/
+
+# Profiler, captures, and logs
+captures/
+*.hprof
+*.log
+
+# NDK/CMake local builds
+/.navigation/
+
+# Custom Keystore and Secret Directories
+keystore/
+secrets/
+*.jks
+*.keystore
+*.p12

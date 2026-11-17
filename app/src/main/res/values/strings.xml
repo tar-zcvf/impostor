@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Masked</string>
+
+    <!-- Onboarding / Menu -->
+    <string name="tagline">Guess the word. Catch the imposter.</string>
+    <string name="how_to_play_title">How to play</string>
+    <string name="how_to_play_body">Each player secretly sees a word. Everyone shares the same word — except one imposter, who sees a different word from the same category. Take turns describing your word without saying it. When all have spoken, vote out the person you think is the imposter. If you catch the imposter, the team scores; if the imposter slips through, the imposter wins. Play as many rounds as you like!</string>
+    <string name="start_game">Start game</string>
+    <string name="add_player">Add player</string>
+    <string name="remove_player">Remove</string>
+    <string name="players_count">%1$d players</string>
+    <string name="category_all">All categories</string>
+    <string name="category_label">Category</string>
+    <string name="rounds_label">Rounds</string>
+    <string name="timer_label">Turn timer</string>
+    <string name="seconds">s</string>
+    <string name="no_timer">No limit</string>
+    <string name="how_to_play">How to play</string>
+    <string name="privacy_note">Masked is fully offline. No accounts, no ads, no tracking. Your players and scores stay on this device.</string>
+
+    <!-- Game -->
+    <string name="your_word">Your word</string>
+    <string name="reveal_word">Show my word</string>
+    <string name="hide_word">Hide</string>
+    <string name="describe_turn">%1$s, describe your word!</string>
+    <string name="voting_title">Who is the imposter?</string>
+    <string name="cast_vote">Vote</string>
+    <string name="results">Results</string>
+    <string name="imposter_revealed">The imposter was %1$s!</string>
+    <string name="imposter_escaped">The imposter %1$s escaped!</string>
+    <string name="team_wins">The team wins! +1 point</string>
+    <string name="imposter_wins">The imposter wins! +1 point</string>
+    <string name="next_round">Next round</string>
+    <string name="final_scores">Final scores</string>
+    <string name="play_again">Play again</string>
+    <string name="back_to_menu">Menu</string>
+    <string name="category_reveal">Category: %1$s</string>
+    <string name="word_count_reveal">Word: %1$s</string>
+    <string name="round_of">Round %1$d of %2$d</string>
+    <string name="points">pts</string>
+    <string name="you">You</string>
+    <string name="tap_to_continue">Tap to continue</string>
+    <string name="name_hint">Player name</string>
+    <string name="add">Add</string>
+    <string name="confirm_title">End the game?</string>
+    <string name="confirm_message">Scores will be kept for this session.</string>
+    <string name="cancel">Cancel</string>
+    <string name="end_game">End</string>
+    <string name="skip">Skip</string>
+    <string name="timer_paused">Paused</string>
+    <string name="time_up">Time\'s up!</string>
+    <string name="share_scores">Share scores</string>
+    <string name="copied">Copied to clipboard</string>
+</resources>
