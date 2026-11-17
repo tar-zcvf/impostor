@@ -68,7 +68,7 @@ Masked is a party word game for 3–8 players on a single device. Every player s
 The whole match is driven by one ViewModel over an explicit phase state machine:
 
 ```
-SETUP → WORD_REVEL → DESCRIBE → VOTING → ROUND_RESULT → (next round | GAME_OVER)
+SETUP → WORD_REVEAL → DESCRIBE → VOTING → ROUND_RESULT → (next round | GAME_OVER)
 ```
 
 All game state lives in an immutable `UiState` data class exposed as `StateFlow<UiState>`; every Compose screen renders from it. The core game logic (`Match`, `WordBank`) is **pure Kotlin with no Android imports**, so the entire rules engine is unit-testable on the JVM:
